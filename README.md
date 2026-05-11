@@ -205,7 +205,7 @@
         }
 
         function createEmoji() {
-            const emojis = ['❤️', '🐼', '✨', '🎈', '🍭', '🌸'];
+            const emojis = ['❤️', '🥰', '✨', '🎈', '🍭', '🌸'];
             const e = document.createElement('div');
             e.innerHTML = emojis[Math.floor(Math.random() * emojis.length)];
             e.style.position = 'fixed';
